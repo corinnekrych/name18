@@ -11,7 +11,29 @@ jobs:
       - uses: cloudbees-io/lambda-create-function@v1
         name: Say hello
         with:
-          function-name: name
-          iam-role-arn: resource
+          function-name: name-corinne
+          iam-role-arn: resource-corinne
           publish: true
           dry-run: true
+          runtime: corinne
+          desc: corinne
+          handler: corinne
+          memory-size: 1
+          timeout: 1
+          vpc-config: corinne
+          tags: corinne
+          tracing-config: corinne
+          architectures: corinne
+          code-signing-config-arn: corinne
+          dead-letter-config: corinne
+          ephemeral-storage: "11"
+          kms-key-arn: corinne
+          layers: corinne
+          image-config: corinne
+          snap-start: corinne
+          file-system-configs: corinne
+          s3-object-version: corinne
+          s3-key: corinne
+          s3-bucket: corinne
+          package-type: corinne
+          code-zip: corinne
